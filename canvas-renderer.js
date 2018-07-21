@@ -1,5 +1,5 @@
 class CanvasRenderer {
-	constructor() {
+    constructor() {
         this.canvas = document.getElementById('canvas');
         this.context = this.canvas.getContext('2d');
         this.screenMargin = 0;
@@ -22,7 +22,7 @@ class CanvasRenderer {
     }
 
     init() {
-		this.canvas.width = window.innerWidth;
+        this.canvas.width = window.innerWidth;
         this.canvas.height = window.innerHeight;
         this.clear();
     }

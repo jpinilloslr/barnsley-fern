@@ -13,9 +13,9 @@ class FernRenderer extends CanvasRenderer {
         super.init();
     }
 
-	draw() {
+    draw() {
         let point = {x: 0, y: 0, color: "#0f0"};
-		for (let i = 0; i < 1000000; i++) {
+        for (let i = 0; i < 1000000; i++) {
             let mappedPoint = this.mapToScreenCoordinates(point);
             this.drawPixel(mappedPoint, this.getColor(point));
             point = this.getNextPoint(point);

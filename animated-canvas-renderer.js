@@ -1,7 +1,7 @@
 let CanvasRenderer = require("./canvas-renderer");
 
 class AnimatedCanvasRenderer extends CanvasRenderer {
-	constructor() {
+    constructor() {
         super();
         this.fps = 60;
     }
