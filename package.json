@@ -1,0 +1,17 @@
+{
+  "name": "barnsley-fern",
+  "version": "1.0.0",
+  "description": "Barnsley Fern implementation in Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Joaquin Pinillos",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.5"
+  },
+  "dependencies": {
+    "linqjs": "0.0.6"
+  }
+}
