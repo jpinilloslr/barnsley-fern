@@ -9,7 +9,7 @@
   "author": "Joaquin Pinillos",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.5"
+    "electron": "^2.0.8"
   },
   "dependencies": {
     "linqjs": "0.0.6"
