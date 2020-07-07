@@ -9,7 +9,7 @@
   "author": "Joaquin Pinillos",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.8",
+    "electron": "^7.2.4",
     "electron-forge": "^5.2.4"
   },
   "dependencies": {
